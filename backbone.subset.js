@@ -30,6 +30,10 @@
 
     options = options || {};
 
+    if (options.sieve) {
+      this.sieve = options.sieve;
+    }
+
     if (options.parent) {
       this.parent = options.parent;
     }
